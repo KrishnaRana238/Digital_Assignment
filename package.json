@@ -1,0 +1,10 @@
+{
+  "name": "digital-assignment-workspace",
+  "private": true,
+  "scripts": {
+    "dev:front": "npm --prefix front run dev",
+    "dev:back": "npm --prefix backend run dev",
+    "build:front": "npm --prefix front run build",
+    "build:back": "npm --prefix backend run build"
+  }
+}
