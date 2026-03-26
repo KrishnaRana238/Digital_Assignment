@@ -5,6 +5,8 @@
     "dev:front": "npm --prefix front run dev",
     "dev:back": "npm --prefix backend run dev",
     "build:front": "npm --prefix front run build",
-    "build:back": "npm --prefix backend run build"
+    "build:back": "npm --prefix backend run build",
+    "build": "npm --prefix backend run build",
+    "start": "npm --prefix backend start"
   }
 }
