@@ -1,26 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "front/next.config.ts",
-      "use": "@vercel/next"
-    },
-    {
-      "src": "backend/src/index.ts",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "backend/src/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "front/$1"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "version": 2
 }
